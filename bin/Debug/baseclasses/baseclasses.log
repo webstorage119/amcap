@@ -1,0 +1,86 @@
+﻿빌드 시작: 2015-11-11 오후 11:55:01
+     1>2 노드의 "D:\WORK\작은형\2015.11.10\amcap_project\baseclasses\baseclasses.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\baseclasses.lastbuildstate" 파일을 삭제하고 있습니다.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\baseclasses.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\\" /Fd"D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt amextra.cpp amfilter.cpp amvideo.cpp arithutil.cpp combase.cpp cprop.cpp ctlutil.cpp ddmm.cpp dllentry.cpp dllsetup.cpp mtype.cpp outputq.cpp perflog.cpp pstream.cpp pullpin.cpp refclock.cpp renbase.cpp schedule.cpp seekpt.cpp source.cpp strmctl.cpp sysclock.cpp transfrm.cpp transip.cpp videoctl.cpp vtrans.cpp winctrl.cpp winutil.cpp wxdebug.cpp wxlist.cpp wxutil.cpp
+         wxutil.cpp
+         wxlist.cpp
+         wxdebug.cpp
+         winutil.cpp
+         winctrl.cpp
+         vtrans.cpp
+         videoctl.cpp
+         transip.cpp
+         transfrm.cpp
+         sysclock.cpp
+         strmctl.cpp
+         source.cpp
+         seekpt.cpp
+         schedule.cpp
+         renbase.cpp
+         refclock.cpp
+         pullpin.cpp
+         pstream.cpp
+         perflog.cpp
+         outputq.cpp
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         mtype.cpp
+         dllsetup.cpp
+         dllentry.cpp
+         ddmm.cpp
+         ctlutil.cpp
+         cprop.cpp
+         combase.cpp
+         arithutil.cpp
+         amvideo.cpp
+         amfilter.cpp
+         amextra.cpp
+         코드를 생성하고 있습니다...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses.lib)이(가) Library의 OutputFile 속성 값(D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\Strmbase.lib)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(baseclasses)이(가) Library의 OutputFile 속성 값(Strmbase)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\Strmbase.lib" strmiids.lib /NOLOGO "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\amextra.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\amfilter.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\amvideo.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\arithutil.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\combase.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\cprop.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\ctlutil.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\ddmm.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\dllentry.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\dllsetup.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\mtype.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\outputq.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\perflog.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\pstream.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\pullpin.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\refclock.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\renbase.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\schedule.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\seekpt.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\source.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\strmctl.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\sysclock.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\transfrm.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\transip.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\videoctl.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\vtrans.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\winctrl.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\winutil.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\wxdebug.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\wxlist.obj"
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\wxutil.obj"
+         baseclasses.vcxproj -> D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses.lib
+       FinalizeBuildStatus:
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\baseclasses.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "D:\WORK\작은형\2015.11.10\amcap_project\bin\Debug\baseclasses\baseclasses.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\WORK\작은형\2015.11.10\amcap_project\baseclasses\baseclasses.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:23.38
